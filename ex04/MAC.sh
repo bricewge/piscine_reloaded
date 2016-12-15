@@ -1,1 +1,1 @@
-ip -o link show | grep -Po 'ether \K[^ ]*'
+ifconfig | grep ether | sed "s|[[:space:]]||g" | sed "s|ether||g"
