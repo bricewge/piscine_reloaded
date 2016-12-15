@@ -6,15 +6,15 @@
 /*   By: bwaegene <brice.wge@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/07/16 20:40:18 by bwaegene          #+#    #+#             */
-/*   Updated: 2016/07/16 20:56:02 by bwaegene         ###   ########.fr       */
+/*   Updated: 2016/12/15 11:20:47 by bwaegene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
+void	ft_print_alphabet(void)
+{
+	int i;
 
-void ft_print_alphabet(void) {
-  i = 0;
-  
-  while (i <= 24)
-    ft_putchar('a' + i++);
+	i = 0;
+	while (i <= 24)
+		ft_putchar('a' + i++);
 }
