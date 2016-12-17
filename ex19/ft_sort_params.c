@@ -6,7 +6,7 @@
 /*   By: bwaegene <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/12/15 17:06:17 by bwaegene          #+#    #+#             */
-/*   Updated: 2016/12/17 14:36:59 by bwaegene         ###   ########.fr       */
+/*   Updated: 2016/12/17 15:19:20 by bwaegene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void	ft_strswap(char **a, char **b)
 	*b = tmp;
 }
 
-int	ft_strcmp(char *s1, char *s2)
+int		ft_strcmp(char *s1, char *s2)
 {
 	int i;
 
@@ -51,7 +51,6 @@ int	ft_strcmp(char *s1, char *s2)
 		i++;
 	return (s1[i] - s2[i]);
 }
-
 
 int		main(int argc, char **argv)
 {
