@@ -6,7 +6,7 @@
 /*   By: bwaegene <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/12/15 17:06:17 by bwaegene          #+#    #+#             */
-/*   Updated: 2016/12/17 15:19:20 by bwaegene         ###   ########.fr       */
+/*   Updated: 2016/12/17 17:54:47 by bwaegene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,7 @@ int		main(int argc, char **argv)
 		}
 		i++;
 	}
-	i = 0;
+	i = 1;
 	while (argv[i])
 	{
 		ft_putstr(argv[i++]);
