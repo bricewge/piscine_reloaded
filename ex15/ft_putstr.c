@@ -6,9 +6,11 @@
 /*   By: bwaegene <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/12/15 15:32:31 by bwaegene          #+#    #+#             */
-/*   Updated: 2016/12/15 15:35:26 by bwaegene         ###   ########.fr       */
+/*   Updated: 2016/12/17 14:40:26 by bwaegene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+void	ft_putchar(char c);
 
 void	ft_putstr(char *str)
 {
